@@ -13,4 +13,4 @@
 
 Bypass `!in_array($parse["scheme"], array("file", "gopher"))` bằng `File` và `Gopher`
 
-Bypass `parse_url()` để vào `curl`: https://github.com/vinhjaxt/CTF-writeups/blob/master/SVATTT-2019-Quals/web-curl-me.md . Thật ra chỉ cần bypass được check gopher là có thể dùng tool `Gopherus` generate gopher PHP RCE payload expoit PHP ở port 9000 rồi.
+Bypass `parse_url()` để vào `curl`: https://github.com/vinhjaxt/CTF-writeups/blob/master/SVATTT-2019-Quals/web-curl-me.md
