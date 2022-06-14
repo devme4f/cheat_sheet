@@ -10,13 +10,5 @@
 
 # SSRF to RCE
 96% gopher
-Nếu: 
-```php
-$parse = parse_url($url);
-// .....
-!in_array($parse["scheme"], array("file", "gopher"))
-
-preg_match("/flag/i", $path)
-```
-Bypass: Dùng `File` và `Gopher`
-Bypass: `File:///#/../flag1` --> parse thì được xem là  fragment trong khi vào curl lại được xem là 1 path
+Bypass `!in_array($parse["scheme"], array("file", "gopher"))` bằng `File` và `Gopher`
+Bypass `parse_url()` để vào `curl`: https://github.com/vinhjaxt/CTF-writeups/blob/master/SVATTT-2019-Quals/web-curl-me.md
