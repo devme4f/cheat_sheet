@@ -10,3 +10,5 @@
 
 # SSRF to RCE
 96% gopher
+Nếu: !in_array($parse["scheme"], array("file", "gopher"))
+Bypass: Dùng `File` và `Gopher`
