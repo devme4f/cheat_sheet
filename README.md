@@ -8,4 +8,5 @@
 # Upload File
 1. Python `filezip` không hỗ trợ symlink, phần extract lại dùng `extract_archive` --> nén symlink bằng tar rồi dùng `polygot` merge với file zip để giả file zip: https://d47sec.wordpress.com/2021/09/02/tim-hieu-ve-polyglot-file/
 
-# pass
+# SSRF to RCE
+96% gopher
